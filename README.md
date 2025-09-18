@@ -9,7 +9,8 @@ React와 Spring Boot 기반으로 개발된 포트폴리오 웹사이트입니�
 
 | 구분           | 기술 스택                                      | 아이콘 |
 |----------------|------------------------------------------------|--------|
-| **Frontend**   | React, React Router, Axios, TailWIndV4          | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com) |
+| **Frontend**   | React, React Router, Axios, TailWIndV4         | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com) |
+| **Deployment** | AWS EC2, S3                                    | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white) |
 | **Version Control** | Git, GitHub                               | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
 
 
