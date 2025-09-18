@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -49,6 +51,10 @@ function App() {
   return (
     <div className="bg-github-dark text-github-text font-inter">
         <Header activeSection={activeSection}/>
+        <main>
+          <Hero/>
+          <About />
+        </main>
     </div>
   )
 };
