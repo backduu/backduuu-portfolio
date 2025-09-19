@@ -170,13 +170,11 @@
 
 .skill-bar {
   width: 0;
-  animation: fillBar 1.5s ease-out forwards;
+  transition: width 1.5s ease-out;
 }
 
-@keyframes fillBar {
-  to {
-    width: var(--skill-width, 0%);
-  }
+.skill-bar.animate {
+  width: var(--skill-width);
 }
 
 /* Contact Form */

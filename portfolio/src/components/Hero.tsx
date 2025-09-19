@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
 
                     <p className="text-lg text-github-text-secondary mb-12 max-w-2xl mx-auto leading-relaxed">
                         <p>SI 역량으로 협업과 문제 해결 능력을 갖춘 백엔드 개발 지망생입니다.</p>
-                        <p>백엔드와 AI 역량으로 개발의 힘을 좋은 선배님들, 후배님들과 함께 발휘하겠습니다.</p>
+                        <p>백엔드와 AI 역량으로 개발의 힘을 선배님들과 함께 발휘하겠습니다.</p>
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
