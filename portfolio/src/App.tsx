@@ -3,13 +3,14 @@ import './App.css'
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import EducationAndExperience from './components/Education&Experience'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'education', 'experience', 'projects', 'contact'];
+      const sections = ['home', 'about', 'educationAndExperience', 'projects', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -54,6 +55,7 @@ function App() {
         <main>
           <Hero/>
           <About />
+          <EducationAndExperience />
         </main>
     </div>
   )

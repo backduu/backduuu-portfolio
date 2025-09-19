@@ -35,8 +35,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     const navigation = [
         { name: '홈', id: 'home'},
         { name: '소개', id: 'about' },
-        { name: '학력', id: 'education'},
-        { name: '활동', id: 'experience' },
+        { name: '학력/활동', id: 'educationAndExperience'},
         { name: '프로젝트', id: 'projects' },
         { name: '연락처', id: 'contact' },
     ];
