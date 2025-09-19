@@ -63,7 +63,7 @@ const About: React.FC = () => {
           ]
         },
         {
-            category: '보안',
+            category: 'Security',
             icon: <ShieldCheck className="w-6 h-6"/>,
             technologies: [
                 { name: 'Spring Security6', level: '입문'},
