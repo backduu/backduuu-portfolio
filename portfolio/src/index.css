@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-github-dark: #0d1117;
+  --color-github-surface: #161b22;
+  --color-github-border: #21262d;
+  --color-github-text: #c9d1d9;
+  --color-github-text-secondary: #8b949e;
+  --color-github-accent: #238636;
+  --color-github-spring: #1B4D3E;
+  --color-github-purple: #6f42c1;
+}
+
+
 /* Font Family */
 .font-inter {
   font-family: 'Inter', sans-serif;
@@ -158,13 +170,11 @@
 
 .skill-bar {
   width: 0;
-  animation: fillBar 1.5s ease-out forwards;
+  transition: width 1.5s ease-out;
 }
 
-@keyframes fillBar {
-  to {
-    width: var(--skill-width, 0%);
-  }
+.skill-bar.animate {
+  width: var(--skill-width);
 }
 
 /* Contact Form */

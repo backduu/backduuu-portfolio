@@ -17,6 +17,7 @@ export default {
             'github-text': '#c9d1d9',
             'github-text-secondary': '#8b949e',
             'github-accent': '#238636',
+            'github-spring' : '#1B4D3E',
             'github-purple': '#6f42c1',
           },
           animation: {
