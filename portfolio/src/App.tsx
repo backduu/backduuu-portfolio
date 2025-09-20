@@ -3,7 +3,10 @@ import './App.css'
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import EducationAndExperience from './components/Education&Experience'
+import EducationAndExperience from './components/Education&Experience';
+import Projects from './components/Projects';
+import Contact from './components/Contacts';
+import Footer from './components/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -56,7 +59,11 @@ function App() {
           <Hero/>
           <About />
           <EducationAndExperience />
+          <Projects/>
+          <Contact/>
         </main>
+
+      <Footer/>
     </div>
   )
 };
