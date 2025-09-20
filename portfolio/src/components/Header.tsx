@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileMenuOpen, setIdMobileMenuOpen] = useState(false);
 
     // 스크롤 이벤트 처리
     useEffect(() => {
@@ -87,7 +87,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
                 {/* 모바일 버전 */}
                 <div className="md:hidden">
                     <button
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    onClick={() => setIdMobileMenuOpen(!isMobileMenuOpen)}
                     className="text-github-text-secondary hover:text-github-accent transition-colors duration-200"
                     >
                     {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

@@ -125,25 +125,12 @@ const About: React.FC = () => {
                                     
                                 </h3>
                             <div className="space-y-4 text-github-text-secondary">
-                            <p>
-                                With over 3+ years of experience in software development, I specialize in
-                                creating robust and scalable applications. My journey spans from frontend
-                                interfaces to complex backend architectures.
-                            </p>
-                            <p>
-                                I'm passionate about clean code, innovative solutions, and staying up-to-date
-                                with the latest technologies. My goal is to build software that not only
-                                works but makes a real difference.
-                            </p>
-                            <p>
-                                When I'm not coding, you'll find me exploring new technologies, contributing
-                                to open-source projects, or mentoring aspiring developers.
-                            </p>
+                            <p>내용추가해야함.</p>
                         </div>
 
                         <div className="grid grid-cols-2 gap-4 mt-8">
                             <div className="text-center p-4 bg-github-surface rounded-lg">
-                                <div className="text-2xl font-bold text-github-accent">8</div>
+                                <div className="text-2xl font-bold text-github-accent">3</div>
                                 <div className="text-sm text-github-text-secondary">프로젝트</div>
                             </div>
                             <div className="text-center p-4 bg-github-surface rounded-lg">
